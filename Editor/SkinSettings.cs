@@ -41,7 +41,7 @@ namespace PunctualSolutions.Skin.Editor
             #if UNITY_6000
             if (TryGetGUIDAndLocalFileIdentifier(value, out var guid, out var id))
             #else
-            if (TryGetGUIDAndLocalFileIdentifier(value.GetInstanceID(), out var guid, out var id))
+            if (TryGetGUIDAndLocalFileIdentifier(value.GetInstanceID(), out var guid, out long id))
             #endif
                 EditorUserSettings.SetConfigValue(name, guid);
         }
