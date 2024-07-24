@@ -38,7 +38,11 @@ namespace PunctualSolutions.Skin.Editor
 
         static void SetAsset<T>(string name, T value) where T : Object
         {
+            #if UNITY_6000
             if (TryGetGUIDAndLocalFileIdentifier(value, out var guid, out var id))
+            #else
+            if (TryGetGUIDAndLocalFileIdentifier(value.GetInstanceID(), out var guid, out var id))
+            #endif
                 EditorUserSettings.SetConfigValue(name, guid);
         }
     }
