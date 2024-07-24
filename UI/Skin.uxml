@@ -1,0 +1,4 @@
+<engine:UXML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:engine="UnityEngine.UIElements" xmlns:editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../UIElementsSchema/UIElements.xsd" editor-extension-mode="True">
+    <Style src="project://database/Packages/cn.punctual-solutions.skin/UI/Skin.uss?fileID=7433441132597879392&amp;guid=4e9a8a5894741c14283aa4d398a7dbf5&amp;type=3#Skin" />
+    <editor:ObjectField label="Font" type="UnityEngine.Font, UnityEngine.TextRenderingModule" name="font" />
+</engine:UXML>

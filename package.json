@@ -6,12 +6,5 @@
   "unity": "2022.1",
   "dependencies": {
     "com.unity.nuget.newtonsoft-json": "3.2.1"
-  },
-  "samples": [
-    {
-      "displayName": "Main",
-      "description": "",
-      "path": "Samples~/Main"
-    }
-  ]
+  }
 }
